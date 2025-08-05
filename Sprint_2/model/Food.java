@@ -1,4 +1,5 @@
 package model;
+import model.constants.Discount;
 
 public abstract class Food {
     protected int amount;
@@ -21,9 +22,5 @@ public abstract class Food {
     }
 
     public abstract double getDiscountedPrice();
-
-    interface Discountable {
-        double getDiscount();
-    }
 }
 

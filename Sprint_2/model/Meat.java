@@ -1,8 +1,11 @@
 package model;
 
-public class Meat extends Food implements Food.Discountable {
-    public Meat(int amount, double price, boolean isVegetarian) {
-        super(amount, price, isVegetarian);
+
+import model.constants.Discount;
+
+public class Meat extends Food implements Discount.Discountable {
+    public Meat(int amount, double price) {
+        super(amount, price,false);
     }
     @Override
     public double getDiscount() {
