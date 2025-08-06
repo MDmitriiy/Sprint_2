@@ -1,9 +1,8 @@
 package model;
 
+import model.constants.Discountable;
 
-import model.constants.Discount;
-
-public class Meat extends Food implements Discount.Discountable {
+public class Meat extends Food implements Discountable {
     public Meat(int amount, double price) {
         super(amount, price,false);
     }

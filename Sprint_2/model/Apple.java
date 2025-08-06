@@ -1,8 +1,9 @@
 package model;
 import model.constants.Discount;
 import model.constants.Colour;
+import model.constants.Discountable;
 
-public class Apple extends Food implements Discount.Discountable {
+public class Apple extends Food implements Discountable {
     private String colour;
 
     public Apple(int amount, double price, String colour) {

@@ -3,7 +3,6 @@ package service;
 import java.util.ArrayList;
 import java.util.List;
 import model.Food;
-import model.constants.Discount;
 
 public class ShoppingCart{
     private List<Food> items;
